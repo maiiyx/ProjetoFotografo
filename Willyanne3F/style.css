@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+
+/* Comentei para que meu Modal ficasse centralizado. :3 */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+header{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
+.name{
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+main .menu{
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.menu{
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border: solid 1px;
+    width: 600px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.photo{
+    display: flex;
+    gap: 15px;
+}
+
+.colum2{
+    display: flex;
+    margin-top: 14px;
+    gap: 10px;
+}
+
+footer{
+    font-size: 30px;
+    justify-content: center;
+    display: grid;
+}
+
+.icons{
+    justify-content: space-around;
+    display: flex;
+    width: 400px;
+    margin: 20px;
+}
+
+.icon{
+    display: grid;
+    position: absolute;
+    margin-top: 320px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon4{
+    display: grid;
+    position: absolute;
+    margin-top: 720px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.form{
+    display: grid;
+}
+
+dialog{
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.msg{
+    text-align: start;
+    width: 500px;
+    height: 100px;
+}
+
+.btns{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.close{
+    color: white;
+    background: black;
+}
+.send{
+    color: black;
+    background: white;
+}
